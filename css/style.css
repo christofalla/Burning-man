@@ -110,6 +110,12 @@ font-size: 30px;
     padding: 17px 47px;
     border: 1px solid #fff;
     width: 238px;
+    transition: all 1s ease;
+}
+
+.btn:hover {
+    background-color: coral;
+
 }
 .description {
     display: flex;
@@ -118,7 +124,7 @@ font-size: 30px;
 }
 
 .description p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: justify;
     line-height: 1.62em;
@@ -132,4 +138,15 @@ font-size: 30px;
     margin-top: 67px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 114px 0;
+}
+
+.footer-text p {
+    margin-right: 60px;
 }
