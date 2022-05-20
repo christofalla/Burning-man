@@ -1,0 +1,99 @@
+body {
+  font-family: 'Anton', sans-serif;
+  scroll-behavior: smooth;
+  color: black;
+  font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding-top: 216px;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/header-bg.svg') no-repeat center top / cover; 
+    padding-top: 57px;
+    color: white;
+    padding-bottom: 322px ;
+}
+
+header a {
+    color: white;
+}
+
+.logo {
+margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    text-transform: uppercase;
+}
+
+.offer p {
+font-size: 30px;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+}
