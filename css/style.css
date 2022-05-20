@@ -114,6 +114,7 @@ font-size: 30px;
 .description {
     display: flex;
     justify-content: space-between;
+    gap: 36px;
 }
 
 .description p {
@@ -123,8 +124,8 @@ font-size: 30px;
     line-height: 1.62em;
 }
 
-.desc-left, .desc-right {
-    width: 567px;
+.desc-right {
+    max-width: 567px;
 }
 
 .gallery {
