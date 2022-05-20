@@ -16,8 +16,20 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 a{
     text-decoration: none;
+}
+
+section {
+    padding-top: 113px;
 }
 
 .offer p {
@@ -97,4 +109,14 @@ font-size: 30px;
     padding: 17px 47px;
     border: 1px solid #fff;
     width: 238px;
+}
+
+.description p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}
+
+.desc-left, .desc-right {
+    width: 567px;
 }
