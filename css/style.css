@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     font-size: 50px;
+    margin-bottom: 58px;
 }
 
 h3 {
@@ -110,13 +111,24 @@ font-size: 30px;
     border: 1px solid #fff;
     width: 238px;
 }
+.description {
+    display: flex;
+    justify-content: space-between;
+}
 
 .description p {
     font-family: 'Open Sans';
     font-weight: 400;
-
+    text-align: justify;
+    line-height: 1.62em;
 }
 
 .desc-left, .desc-right {
     width: 567px;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
 }
