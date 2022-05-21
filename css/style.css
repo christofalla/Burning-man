@@ -48,6 +48,18 @@ ul, li {
     margin: 0 auto;
 }
 
+@media (max-width: 1170px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
 .header {
     background: url('../img/header-bg.svg') no-repeat center top / cover; 
     padding-top: 57px;
@@ -121,6 +133,7 @@ font-size: 30px;
     display: flex;
     justify-content: space-between;
     gap: 36px;
+    flex-wrap: wrap;
 }
 
 .description p {
@@ -130,7 +143,7 @@ font-size: 30px;
     line-height: 1.62em;
 }
 
-.desc-right {
+.desc-right, .desc-left {
     max-width: 567px;
 }
 
@@ -138,6 +151,7 @@ font-size: 30px;
     margin-top: 67px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-text {
