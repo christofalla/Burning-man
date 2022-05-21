@@ -52,11 +52,22 @@ ul, li {
     .container {
         max-width: 1000px;
     }
+    
+    .description {
+        flex-wrap: wrap;
+    }
+
+    
 }
 
 @media (max-width: 992px) {
     .container {
         max-width: 750px;
+    }
+
+    .description {
+        flex-wrap: wrap;
+        font-size: 13px;
     }
 }
 
@@ -127,13 +138,12 @@ font-size: 30px;
 
 .btn:hover {
     background-color: coral;
-
 }
 .description {
     display: flex;
     justify-content: space-between;
     gap: 36px;
-    flex-wrap: wrap;
+    
 }
 
 .description p {
@@ -151,7 +161,7 @@ font-size: 30px;
     margin-top: 67px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 
 .footer-text {
